@@ -12,7 +12,8 @@ let vaish:any = mongodb.MongoClient;   //vaish is the client
 let fetch:any = express.Router();
 
 fetch.get("/", (req:any, res:any):any=>{
-    vaish.connect("mongodb+srv://vaishpadre:JGNwtwvn34JRtdVk@miniprojectdb.nzphu.mongodb.net/vaish_nodejs/?retryWrites=true&w=majority",
+    // vaish.connect("mongodb+srv://vaishpadre:JGNwtwvn34JRtdVk@miniprojectdb.nzphu.mongodb.net/vaish_nodejs/?retryWrites=true&w=majority",
+    vaish.connect("mongodb+srv://vaishpadre:JGNwtwvn34JRtdVk@cluster0.zmt1crm.mongodb.net/?retryWrites=true&w=majority",
     (err:any, connection:any):any=>{
         if(err) throw err;
         else{
