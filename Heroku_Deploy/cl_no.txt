@@ -1,0 +1,26 @@
+step 1:
+    -create procfile
+        guides the heroku server to start our application
+
+step 2: 
+    -create the Heroku account
+
+step 3:
+    -install Heroku CLI   
+
+step 4:
+    -login to Heroku account
+        >heroku login
+    
+step 5:
+    -create the new app in Heroku server
+
+step 6:
+    -execute below commands
+        >git init 
+        >npx gitignore node
+        >heroku git:clone -a <name of application>
+        >git add .
+        >git commit -m ""
+        >git push heroku master
+        
