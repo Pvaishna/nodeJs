@@ -1,0 +1,49 @@
+                                    *****File System******
+
+    -'fs' is the pre defined module to interact with flat files
+        ex. json files, xml files, text files
+
+    -'fs' => File System
+
+1. readFile(-,-)
+    - this fuction used to read the data from files asynchronously.
+
+2. readFileSync(-)
+    - this fucntion used to read the data from files synchronously.
+
+3. writeFile(-,-,-)
+    -this function used to write data asynchronously
+
+4. writeFileSync(-,-)
+    -this fucntion used to write the data synchronously
+
+5.appendFile()
+    -used to append the data asynchronously
+
+6.appendFileSync()
+    -used to append the data synchronously
+
+7. open(-,-)
+    -used to open the file asynchronously
+
+8. openSync()
+    - used to open the file synchronously
+
+9. close()
+    - used to close file asnychronously
+
+10. closeSync()
+    - used to close the file synchronously
+
+11. unlink()
+    -used to delete files asynchronously
+
+12. unlinkSync()
+    -used to delete files synchronously
+
+13. trancate()
+    -used to delete data from file asnychronously.
+
+14. trancateSync()
+    -used to delete data from file synchronously.
+
